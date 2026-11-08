@@ -16,6 +16,9 @@ console.log(b.length)
 a.forEach((btn)=>{
     console.log(btn);
 })
-b.forEach((btn)=>{
-    console.log(btn);
-})
+//b.forEach((btn)=>{
+ //   console.log(btn);})
+const liste =document.querySelector("#liste");
+console.log(liste.childNodes.length);
+console.log(liste.children.length);
+console.log(liste.firstChild);

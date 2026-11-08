@@ -6,3 +6,6 @@
 -variable b il changée parce qu'un getElementsByClassName Retourner HTMLCollection ,HTMLCollection est une liste vivante 
 -je choisirai pour tes boutons de filtre liste HtmlCollection
 
+## Ètape2:
+-différents le nombres parce qu'un children Retourner seulement les nombre  des element mais childNodes que retourner les (l'elements+texte+commentaires)
+
