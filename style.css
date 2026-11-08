@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(41, 40, 40);
+}
+#form{
+    background-color: rgb(80, 86, 86);
+    width: 40%;
+    height: 200px;
+    box-shadow: 30px;
+    border-radius:10px;
+    border: 1px solid gray;
+}
+#nom{
+    margin:5px ;
+    padding: 4px;
+    
+}
+#montant{
+    margin:5px ;
+    padding: 4px;
+}
+#cat{
+    width: 70%;
+    height: 30px;
+    margin: 5px;
+    background-color: rgb(153, 153, 142);
+}
+#submit{
+    position: absolute;
+    left: 30%;
+    top:180px;
+}
+#filtres{
+    margin: 10px;
+    background-color: azure;
+    width: 38%;
+    padding: 2px;
+    border-radius: 5px;
+}
