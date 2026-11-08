@@ -9,3 +9,7 @@
 ## Ètape2:
 -différents le nombres parce qu'un children Retourner seulement les nombre  des element mais childNodes que retourner les (l'elements+texte+commentaires)
 
+## Ètape3:
+-chaque fois que nous appelons la fonction ,le contenu du array se répète 
+-et à notre retour innerhtml ne répète pas le contenu du array c'est parce que innerhtml supprémer le contenu avant afficher nouvelle function
+
