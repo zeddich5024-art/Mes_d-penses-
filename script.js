@@ -43,6 +43,47 @@ let depens=depenses.reduce((somme,depense)=> somme+depense.montant,0);
 console.log(depens);
 const totals=document.querySelector("#total");
 totals.textContent=depens;
-afficher()
-afficher()
+const errornom=document.querySelector("#errornom");
+const errormontant=document.querySelector("#errormontant");
+let iddepense=depenses.length;
+console.log(iddepense);
+form.addEventListener("submit",(e)=>{
+    //e.preventDefault();
+    const Nom=nom.value.trim();
+    const Montant=Number(montant.value);
+    let valide=true;
+    if(Nom === ""){
+        errornom.textContent="Le nom est requis";
+        valide=false;
+    }
+    else if(Nom.length < 2 ){
+        errornom.textContent="Le nom doit contenir au moins 3 caractères";
+        valide=false;
+    }else{
+        errornom.textContent="";
+    }
+    if(Montant<=0){
+        errormontant.textContent="le montant spéreur 0";
+        valide=false;
+    }else{
+        errormontant.textContent="";
+    }
+    if(!valide){
+        return;
+    }
+    iddepense++;
+    const depens={
+        id:iddepense,
+        nom:Nom,
+        montant:Montant,
+        cat:catégorie.value
+    }
+    depenses.push(depens);
+    
+    form.reset(); 
+    console.log(depenses)
+    afficher()
+})
+
+
 afficher()

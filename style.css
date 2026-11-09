@@ -10,18 +10,15 @@ body{
     border: 1px solid gray;
 }
 #nom{
-    margin:5px ;
-    padding: 4px;
+    padding: 2px;
     
 }
 #montant{
-    margin:5px ;
-    padding: 4px;
+    padding: 2px;
 }
 #cat{
     width: 70%;
     height: 30px;
-    margin: 5px;
     background-color: rgb(153, 153, 142);
 }
 #submit{
@@ -35,4 +32,13 @@ body{
     width: 38%;
     padding: 2px;
     border-radius: 5px;
+}
+#error{
+    color:red;
+}
+#errornom{
+    color:red;
+}
+#errormontant{
+    color:red;
 }
